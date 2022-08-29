@@ -3,7 +3,7 @@ package ghar.learning.di.dependency.module
 import dagger.Module
 import javax.inject.Inject
 
-@Module
+//@Module
 class House @Inject constructor() {
 
     init {

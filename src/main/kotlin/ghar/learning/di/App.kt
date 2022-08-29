@@ -1,9 +1,13 @@
 package ghar.learning.di
 
 import ghar.learning.di.dependency.DaggerAppGraph
+import ghar.learning.di.dependency.module.Kitchen
+import javax.inject.Inject
 
 
 class App {
+
+    @Inject lateinit var kitchen : Kitchen
 
     companion object {
 
@@ -12,8 +16,8 @@ class App {
 
             /** instantiate Dependency-GRAPH */
             val graph = DaggerAppGraph.create()
-            val house =  graph.injectHouse()
-            val kitchen = graph.injectKitchen()
+            graph.injectHouse()
+//            graph.injectKitchen()
 
         }
     }
