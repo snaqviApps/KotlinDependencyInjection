@@ -1,6 +1,7 @@
 package ghar.learning.di
 
-import ghar.learning.di.dependency.House
+import ghar.learning.di.dependency.DaggerAppGraph
+
 
 class App {
 
@@ -8,10 +9,12 @@ class App {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            println("Hi from Kotlin-Dependency Injection using Dagger-2, Simple Kotlin-App: ")
 
-            var house = House()
-            println(house)
+            /** instantiate Dependency-GRAPH */
+            val graph = DaggerAppGraph.create()
+            val house =  graph.injectHouse()
+            val kitchen = graph.injectKitchen()
+
         }
     }
 }

@@ -1,19 +1,26 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.7.10'
+    id "org.jetbrains.kotlin.kapt" version "1.7.10"
 }
 
 group = 'org.example'
 version = '1.0-SNAPSHOT'
 
 repositories {
+    google()
     mavenCentral()
 }
 
 dependencies {
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 
-    implementation 'com.google.dagger:dagger:2.43.2'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.43.2'
+    // Dagger -2
+    def dagger_version = "2.43.2"
+    implementation "com.google.dagger:dagger:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"                // for Dependency-graph generation
+//    annotationProcessor "com.google.dagger:dagger-compiler:$dagger_version"
+
+
 }
 
 test {
