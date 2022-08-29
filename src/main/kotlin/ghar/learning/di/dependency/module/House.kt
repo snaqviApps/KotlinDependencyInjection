@@ -4,6 +4,9 @@ import javax.inject.Inject
 
 class House @Inject constructor() {
 
+    /** filed injection */
+    @Inject lateinit var kitchen: Kitchen
+
     init {
         println("house built")
     }
