@@ -7,4 +7,7 @@ class Kitchen @Inject constructor() {
     init {
         println("Kitchen - built")
     }
+
+    fun cooking() {
+        println("cooking...") }
 }

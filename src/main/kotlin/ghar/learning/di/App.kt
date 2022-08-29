@@ -16,7 +16,7 @@ class App {
 
             /** instantiate Dependency-GRAPH */
             val graph = DaggerAppGraph.create()
-            graph.injectHouse()
+            graph.injectHouse().kitchen.cooking()       // using injected-field 'kitchen'
 
         }
     }
