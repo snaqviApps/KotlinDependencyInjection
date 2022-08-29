@@ -17,7 +17,7 @@ class App {
             /** instantiate Dependency-GRAPH */
             val graph = DaggerAppGraph.create()
             graph.injectHouse()
-//            graph.injectKitchen()
+            graph.injectKitchen()
 
         }
     }
