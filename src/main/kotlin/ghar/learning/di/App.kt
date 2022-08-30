@@ -1,23 +1,13 @@
 package ghar.learning.di
 
 import ghar.learning.di.dependency.DaggerAppGraph
-import ghar.learning.di.dependency.module.Kitchen
-import javax.inject.Inject
 
 
-class App {
+fun main() {
 
-    @Inject lateinit var kitchen : Kitchen
+    /** instantiate Dependency-GRAPH */
+    val graph = DaggerAppGraph.create()
+    graph.injectHouse().kitchen.cooking()       // using injected-field 'kitchen'
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-
-            /** instantiate Dependency-GRAPH */
-            val graph = DaggerAppGraph.create()
-            graph.injectHouse().kitchen.cooking()       // using injected-field 'kitchen'
-
-        }
-    }
 }
+

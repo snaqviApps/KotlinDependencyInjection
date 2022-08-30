@@ -5,7 +5,7 @@ import javax.inject.Inject
 class Kitchen @Inject constructor() {
 
     init {
-        println("Kitchen - built")
+        println("Kitchen built")
     }
 
     fun cooking() {

@@ -5,5 +5,5 @@ import ghar.learning.di.dependency.module.House
 
 @Component
 interface AppGraph {
-    fun injectHouse() : House
+    fun injectHouse():House
 }
