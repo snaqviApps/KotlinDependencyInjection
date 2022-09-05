@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b77f8f2-5a06-42e1-9609-703425d6d9b3" name="Changes" comment="using modules with provides">
+    <list default="true" id="2b77f8f2-5a06-42e1-9609-703425d6d9b3" name="Changes" comment="added conversion back to POJO using fromJson() call-back">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/model/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/model/Person.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662365745308</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added conversion back to POJO using fromJson() call-back">
+      <created>1662369074682</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662369074682</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,14 +274,15 @@
     <MESSAGE value="injected 'field (Kitchen)' in House-class" />
     <MESSAGE value="access 'cooking()' by injected-field in House-class" />
     <MESSAGE value="using modules with provides" />
-    <option name="LAST_COMMIT_MESSAGE" value="using modules with provides" />
+    <MESSAGE value="added conversion back to POJO using fromJson() call-back" />
+    <option name="LAST_COMMIT_MESSAGE" value="added conversion back to POJO using fromJson() call-back" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt</url>
-          <line>30</line>
+          <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">

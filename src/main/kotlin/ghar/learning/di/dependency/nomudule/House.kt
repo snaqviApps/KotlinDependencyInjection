@@ -1,13 +1,7 @@
 package ghar.learning.di.dependency.nomudule
 
 import com.google.gson.Gson
-import com.google.gson.JsonArray
-import com.google.gson.JsonElement
-import com.google.gson.JsonObject
-import com.google.gson.stream.JsonWriter
 import ghar.learning.di.dependency.model.Person
-import netscape.javascript.JSObject
-import java.util.Objects
 import javax.inject.Inject
 
 class House @Inject constructor() {         // Need to provide here street-number(Int), and title (string)

@@ -4,17 +4,18 @@ package ghar.learning.di.dependency.model
 //data class Person(val age:Int, val personName:String) { }
 
 /** approach 02: custom constructor*/
-class Person(private var age: Int, var personName: String) {
+class Person(private var age: Int, private var personName: String) {
 
-    private var _age:Int
-        get() = age
-        set(value) {
-            age = value
-        }
+//    private var _age:Int
+//        get() = age
+//        set(value) {
+//            age = value
+//        }
+//
+//    private var _personName:String
+//        get() = personName
+//        set(value) {
+//            personName = value
+//        }
 
-    private var _personName:String
-        get() = personName
-        set(value) {
-            personName = value
-        }
 }
