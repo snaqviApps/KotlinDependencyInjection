@@ -1,4 +1,4 @@
-package ghar.learning.di.dependency.module
+package ghar.learning.di.dependency.nomudule
 
 import javax.inject.Inject
 

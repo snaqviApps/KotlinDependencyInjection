@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b77f8f2-5a06-42e1-9609-703425d6d9b3" name="Changes" comment="access 'cooking()' by injected-field in House-class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/Building.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/model/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/UsingModules.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/App.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/AppGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/AppGraph.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/House.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/House.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/Kitchen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/Kitchen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/Building.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/Building.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/House.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/Kitchen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/Kitchen.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="using_di_dagger2" />
+        <entry key="$PROJECT_DIR$" value="method-injection" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,6 +95,7 @@
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="ghar.learning.di.dependency.module" />
+      <recent name="ghar.learning.di.dependency.nomudule" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.AppKt">
@@ -261,6 +266,22 @@
     <MESSAGE value="injected 'field (Kitchen)' in House-class" />
     <MESSAGE value="access 'cooking()' by injected-field in House-class" />
     <option name="LAST_COMMIT_MESSAGE" value="access 'cooking()' by injected-field in House-class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/App.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

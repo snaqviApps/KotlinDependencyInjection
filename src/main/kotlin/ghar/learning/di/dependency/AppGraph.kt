@@ -1,9 +1,10 @@
 package ghar.learning.di.dependency
 
 import dagger.Component
-import ghar.learning.di.dependency.module.House
+import ghar.learning.di.dependency.nomudule.House
+import ghar.learning.di.dependency.module.UsingModules
 
-@Component
+@Component(modules = [UsingModules::class])
 interface AppGraph {
-    fun injectHouse():House
+    fun injectHouse(): House
 }
