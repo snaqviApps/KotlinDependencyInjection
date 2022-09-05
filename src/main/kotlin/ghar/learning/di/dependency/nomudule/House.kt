@@ -1,7 +1,13 @@
 package ghar.learning.di.dependency.nomudule
 
 import com.google.gson.Gson
+import com.google.gson.JsonArray
+import com.google.gson.JsonElement
+import com.google.gson.JsonObject
+import com.google.gson.stream.JsonWriter
 import ghar.learning.di.dependency.model.Person
+import netscape.javascript.JSObject
+import java.util.Objects
 import javax.inject.Inject
 
 class House @Inject constructor() {         // Need to provide here street-number(Int), and title (string)
@@ -22,8 +28,12 @@ class House @Inject constructor() {         // Need to provide here street-numbe
     }
 
     fun useGson(person: Person){
-        val json:String = gson.toJson(person)
+        val json:String = gson.toJson(person, Person::class.java)
         println("POJO to Json: $json")
+
+//        val backToPOJO: Object = gson.fromJson(json, Object::class.java)
+        val backToSchool = gson.fromJson(json, Object::class.java)
+        println(message = "JSON to POJO: $backToSchool")
     }
 
     override fun toString(): String {

@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b77f8f2-5a06-42e1-9609-703425d6d9b3" name="Changes" comment="access 'cooking()' by injected-field in House-class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/model/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/UsingModules.kt" afterDir="false" />
+    <list default="true" id="2b77f8f2-5a06-42e1-9609-703425d6d9b3" name="Changes" comment="using modules with provides">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/AppGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/AppGraph.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/Building.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/Building.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/House.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/module/Kitchen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/Kitchen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661752391384</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="using modules with provides">
+      <created>1662365745308</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662365745308</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,14 +265,15 @@
     <MESSAGE value="removed unnecessary imports" />
     <MESSAGE value="injected 'field (Kitchen)' in House-class" />
     <MESSAGE value="access 'cooking()' by injected-field in House-class" />
-    <option name="LAST_COMMIT_MESSAGE" value="access 'cooking()' by injected-field in House-class" />
+    <MESSAGE value="using modules with provides" />
+    <option name="LAST_COMMIT_MESSAGE" value="using modules with provides" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/ghar/learning/di/dependency/nomudule/House.kt</url>
-          <line>24</line>
+          <line>30</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
