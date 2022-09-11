@@ -25,7 +25,6 @@ class House @Inject constructor() {         // Need to provide here street-numbe
         val json:String = gson.toJson(person, Person::class.java)
         println("POJO to Json: $json")
 
-//        val backToPOJO: Object = gson.fromJson(json, Object::class.java)
         val backToSchool = gson.fromJson(json, Object::class.java)
         println(message = "JSON to POJO: $backToSchool")
     }

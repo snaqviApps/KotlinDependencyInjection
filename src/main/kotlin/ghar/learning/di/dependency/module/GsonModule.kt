@@ -5,7 +5,7 @@ import dagger.Module
 import dagger.Provides
 
 @Module
-class UsingModules {
+class GsonModule {
 
     @Provides
     fun injectsGson():Gson{
