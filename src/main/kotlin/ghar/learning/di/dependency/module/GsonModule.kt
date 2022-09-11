@@ -8,7 +8,7 @@ import dagger.Provides
 class GsonModule {
 
     @Provides
-    fun injectsGson():Gson{
+    fun injectsGson():Gson {
         return Gson()
     }
 }

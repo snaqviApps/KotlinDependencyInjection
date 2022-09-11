@@ -1,5 +1,11 @@
 package ghar.learning.di.dependency.nomudule
 
-interface Building {
-    fun injectRegisteredHouse(house: House)
+import javax.inject.Inject
+
+class Building @Inject constructor() {
+
+    fun injectRegisteredHouse(house: House){
+        println("House Registered: $house")
+    }
+
 }
