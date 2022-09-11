@@ -9,7 +9,8 @@ fun main() {
     /** instantiate Dependency-GRAPH */
     val graph = DaggerAppGraph.create()
     val house = graph.injectHouse()
-    house.useGson(Person(26, "Zem"))
+    house.greetingsLandLord(Person(26, "Zem"))
+    house.kitchen.cooking()
 
 }
 
