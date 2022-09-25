@@ -8,7 +8,7 @@ import javax.inject.Named
 import javax.inject.Singleton
 
 @Module
-class GsonModule {
+class AppModule {
 
     /**
      * @Named approach is applied when same dependency is being injected
@@ -28,5 +28,13 @@ class GsonModule {
     @Provides
     @Named("Jill")
     fun getPersonJill() = Person(75, "auto-injected-Jill")
+
+    @Provides
+    @Named("country")
+    fun getCountry() = "USA"
+
+    @Provides
+    @Named("countryTwo")
+    fun getCountryTwo() = "China"
 
 }

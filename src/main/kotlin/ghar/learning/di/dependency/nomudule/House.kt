@@ -5,7 +5,7 @@ import ghar.learning.di.dependency.model.Person
 import javax.inject.Inject
 import javax.inject.Named
 
-class House @Inject constructor() {         // Need to provide here street-number(Int), and title (string)
+class House @Inject constructor(@Named("countryTwo") country : String) {         // Need to provide here street-number(Int), and title (string)
 
 
     @Inject @Named("Jill") lateinit var person: Person     // field injection
@@ -14,7 +14,7 @@ class House @Inject constructor() {         // Need to provide here street-numbe
     @Inject lateinit var gson : Gson
 
     init {
-        println("House built")
+        println("House built in $country")
     }
 
     fun greetingsLandLord() {
