@@ -5,10 +5,10 @@ import ghar.learning.di.dependency.nomudule.House
 import ghar.learning.di.dependency.module.GsonModule
 import javax.inject.Singleton
 
+/** singleton-dependency forces to annotate
+ * component as singleton
+ */
 @Singleton
-/** singleton-dependency forces to annoate component
- * as singleton
- * */
 @Component(modules = [GsonModule::class])
 interface AppGraph {
     fun injectHouse(): House
