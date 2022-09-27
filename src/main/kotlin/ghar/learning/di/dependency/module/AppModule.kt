@@ -37,4 +37,7 @@ class AppModule {
     @Named("countryTwo")
     fun getCountryTwo() = "China"
 
+    @Provides
+    @Named("carName")
+    fun getCarName() = "limousine"
 }
